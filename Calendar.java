@@ -7,7 +7,6 @@ public class Calendar {
 	
 	public static void main(String args[]) {
 		int chosenYear = Integer.parseInt(args[0]);
-		int numberOfSundays=0;
 	 	while (year<chosenYear) {	
 	 		advance();
 	 		}
